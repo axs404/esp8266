@@ -1,6 +1,3 @@
-#include <Arduino.h>
-#include "secrets.h"
-
 // put function declarations here:
 int myFunction(int, int);
 
