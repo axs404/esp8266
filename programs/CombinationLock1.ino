@@ -9,6 +9,8 @@ int buzzer = 13;
 String password = "#####";
 String enteredpassword = "";
 String timesofpassword = "";
+void beep();
+
 void setup() {
   pinMode (servoLed, OUTPUT);
   pinMode (D1,INPUT);

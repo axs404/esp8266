@@ -12,6 +12,9 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 String messageStatic = "Static message";
 String messageToScroll = "This is a scrolling message ";
 
+void scrollText(int row, String message, int delayTime, int lcdColumns);
+void print_msg();
+
 void setup() {
   lcd.init(); // initialize the lcd
   // Print a message to the LCD.

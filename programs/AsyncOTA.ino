@@ -74,6 +74,11 @@ void delayCheckingReboot(unsigned long ms) {
   }
 }
 
+void onOTAStart();
+void onOTAProgress(size_t current, size_t final);
+void onOTAEnd(bool success);
+void delayCheckingReboot(unsigned long ms);
+
 void setup(void) {
   Serial.begin(115200);
   delay(10);

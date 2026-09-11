@@ -44,6 +44,11 @@ void show(int a, int b, String c, bool update = true) {
   }
 }
 
+void show(int a, int b, String c, bool update);
+void connect();
+void measure();
+void thingspeaksend();
+
 void setup() {
   Serial.begin(115200);  // Initialize serial
   while (!Serial) {

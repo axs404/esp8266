@@ -16,6 +16,15 @@ int maxDistance;
 long duration;
 bool notFound = true;
 
+void forward();
+void left();
+void right();
+void stop();
+void checkDistance();
+void servoSweep();
+void forwardmovement();
+void movement();
+
 void setup() {
   Serial.begin(115200);
   delay(100);

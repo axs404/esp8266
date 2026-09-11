@@ -131,6 +131,11 @@ void reconnect() {
   }
 }
 
+void setup_wifi();
+void scrollMsg();
+void callback(char* topic, byte* payload, unsigned int length);
+void reconnect();
+
 void setup() {
   // msg = String("Hello World").c_str();
   Serial.begin(115200);

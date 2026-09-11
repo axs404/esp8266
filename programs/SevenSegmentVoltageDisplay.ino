@@ -6,6 +6,17 @@
 #define D6 12
 #define D7 13
 
+void zero();
+void one();
+void two();
+void three();
+void four();
+void five();
+void six();
+void seven();
+void eight();
+void nine();
+
 void setup () {
   pinMode(D1, OUTPUT);
   pinMode(D2, OUTPUT);

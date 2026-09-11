@@ -21,6 +21,8 @@ void otaHandlingDelay(unsigned long ms) {
   }
 }
 
+void otaHandlingDelay(unsigned long ms);
+
 void setup() {
   Serial.begin(115200);
   delay(10);

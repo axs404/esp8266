@@ -95,6 +95,10 @@ void reconnect() {
   }
 }
 
+void setup_wifi();
+void callback(char* topic, byte* payload, unsigned int length);
+void reconnect();
+
 void setup() {
   Serial.begin(115200);
   setup_wifi();

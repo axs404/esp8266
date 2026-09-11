@@ -70,6 +70,10 @@ void playNote(char note, int duration) {
 }
 
 
+void displayBarGraph(int tone);
+void playTone(int tone, int duration);
+void playNote(char note, int duration);
+
 void setup() {
     Serial.begin(115200);
     pinMode(speakerPin, OUTPUT);

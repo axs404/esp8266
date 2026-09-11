@@ -8,6 +8,8 @@ int WIRE4 = 15;
 String password = "####";
 String enteredpassword = "";
 String timesofpassword = "";
+void beep();
+
 void setup() {
   lcd.init(); // initialize the lcd
   //lcd.backlight();

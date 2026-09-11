@@ -19,6 +19,8 @@ int greenValue;
 int blueValue;
 #define delayTime 250
 
+void lightControl();
+
 void setup() {
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);

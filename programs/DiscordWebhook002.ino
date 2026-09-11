@@ -26,6 +26,8 @@ const char* mqtt_topic = "discord/alerts";      // MQTT topic to subscribe to
 WiFiClient espClient;
 PubSubClient client(espClient);
 
+void callback(char* topic, byte* payload, unsigned int length);
+
 void setup() {
   Serial.begin(115200);
 

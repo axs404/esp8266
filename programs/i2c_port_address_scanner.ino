@@ -8,6 +8,9 @@
 
 #include <Wire.h>
 
+void scanPorts();
+void check_if_exist_I2C();
+
 void setup() {
   Serial.begin(115200);
   while (!Serial);             // Leonardo: wait for serial monitor

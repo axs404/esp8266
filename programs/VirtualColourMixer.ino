@@ -20,6 +20,9 @@ const int redPin = D0;    // sensor to control red color
 const int greenPin = D1;  // sensor to control green color
 const int bluePin = D2;   // sensor to control blue color
 
+void draw();
+void serialEvent(Serial myPort);
+
 void setup() {
   Serial.begin(9600);
 }

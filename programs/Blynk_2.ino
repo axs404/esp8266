@@ -84,6 +84,8 @@ void moveControl(int x, int y)
     }
 }
 
+void moveControl(int x, int y);
+
 void setup()
 {
     Serial.begin(9600);

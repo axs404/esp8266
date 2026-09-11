@@ -28,6 +28,10 @@ WiFiClientSecure client;
 // Light sleep duration: 1 hour (in microseconds)
 const unsigned long sleepDuration = 3600e6;  // 1 hour = 3600 seconds = 3600e6 microseconds
 
+void connectToWiFi();
+void enterLightSleep(unsigned long duration);
+void showOLEDMessage(String message, int x, int y);
+
 void setup() {
   Serial.begin(115200);
   

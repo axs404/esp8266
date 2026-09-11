@@ -12,6 +12,15 @@ long r;
 
 int inputPin = 15;
 
+void clearPins();
+void one();
+void two();
+void three();
+void four();
+void five();
+void six();
+void randomRoll(int roll);
+
 void setup() {
   randomSeed(analogRead(0));  
 

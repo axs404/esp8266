@@ -5,6 +5,8 @@
 //uncomment this line if using a Common Anode LED
 #define COMMON_ANODE
  
+void setColor(int red, int green, int blue);
+
 void setup()
 {
   pinMode(redPin, OUTPUT);

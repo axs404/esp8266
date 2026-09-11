@@ -52,6 +52,10 @@ int mblueValue;
 
 int mode = 1;
 
+void redLight();
+void greenLight();
+void blueLight();
+
 void setup() {
   Serial.begin(115200);
   delay(100);

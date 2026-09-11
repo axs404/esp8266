@@ -38,6 +38,8 @@ const char * myWriteAPIKey = SECRET_WRITE_APIKEY;
 
 int number = 727;
 
+void lightDetection();
+
 void setup() {
   Serial.begin(115200);  // Initialize serial
   

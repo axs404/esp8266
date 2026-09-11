@@ -23,6 +23,10 @@ const bool ACTIVE_LOW = true;   // change to false if your relay board is active
 bool relay1State = false;  // false = OFF, true = ON
 bool relay2State = false;
 
+void handleCommand(String cmd);
+void setRelay(int relayNumber, bool turnOn);
+void printStatus();
+
 void setup() {
   Serial.begin(115200);
   delay(10);

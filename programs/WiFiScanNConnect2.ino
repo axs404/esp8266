@@ -143,6 +143,11 @@ void connectToStoredSSIDs() {
   Serial.println("Could not connect to any stored SSID.");
 }
 
+void saveSSIDToEEPROM(String ssid);
+void printStoredSSIDs();
+void scanAndStoreSSIDs();
+void connectToStoredSSIDs();
+
 void setup() {
   Serial.begin(115200);
   EEPROM.begin(EEPROM_SIZE);

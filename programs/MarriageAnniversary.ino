@@ -21,6 +21,9 @@ const int tiltPin = D5;
 int shakeCount = 0;
 bool isShaking = false;
 
+void tiltAnimation();
+void celebrationAnimation();
+
 void setup() {
   pinMode(tiltPin, INPUT);
 

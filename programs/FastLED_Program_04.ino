@@ -40,6 +40,32 @@ uint16_t lastMillis = 0;
 uint16_t dist = 1234;
 uint16_t x = 0, y = 0, z = 0;
 
+void handleButton();
+void handleShortPress();
+void handleLongPress();
+void powerDownStrip();
+void powerOnStrip();
+void rainbow();
+void rainbowCycle();
+void meteorRain();
+void sinelon();
+void colorFadePulse();
+void rainbowGlitter();
+void colorWaves();
+void glitter();
+void fire();
+void cylon();
+void twinkle();
+void gradientFlow();
+void starfield();
+void rippleEffect();
+void noiseColorWash();
+void drip();
+void fire2012();
+void fireworksSparkle();
+void sparkleTrail();
+void snake();
+
 void setup() {
   delay(1000);
   Serial.begin(115200);

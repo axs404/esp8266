@@ -1,6 +1,8 @@
 const int ledPin = 2;
 int incomingByte;
 
+void draw();
+
 void setup() {
   Serial.begin(9600);
   pinMode(ledPin, OUTPUT);

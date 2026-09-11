@@ -51,6 +51,9 @@ String rssiToQuality(int32_t rssi) {
   return String(2 * (rssi + 100)) + "%";
 }
 
+void saveSSIDToEEPROM(String ssid);
+void printStoredSSIDs();
+
 void setup() {
   Serial.begin(115200);
   EEPROM.begin(EEPROM_SIZE);

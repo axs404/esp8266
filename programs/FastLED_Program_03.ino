@@ -4,6 +4,11 @@
 
 CRGB leds[NUM_LEDS];
 
+void LinearReactive(int val, int brightness);
+void BrightnessReactive(int val);
+void CentreProgressive(int val, int brightness);
+void EdgeProgressive(int val, int brightness);
+
 void setup() { 
   Serial.begin(9600);
   

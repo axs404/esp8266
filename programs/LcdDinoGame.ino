@@ -227,6 +227,10 @@ void buttonPush() {
   buttonPushed = true;
 }
 
+void initializeGraphics();
+void advanceTerrain(char* terrain, byte newTerrain);
+void buttonPush();
+
 void setup() {
   pinMode(PIN_READWRITE, OUTPUT);
   digitalWrite(PIN_READWRITE, LOW);
